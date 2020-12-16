@@ -1,13 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
-import Navbav from "../components/Navbav"
+import Layout from "../components/layout"
 
-export default function Home() {
-  return (
-    <div>
-      <Navbav />
-      <Link to="blog">Blog Page</Link>
-      Hello world!
-    </div>
-  )
-}
+export default () => (
+  <Layout>
+    <h1>hello from gatsby</h1>
+  </Layout>
+)

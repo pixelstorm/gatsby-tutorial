@@ -1,5 +1,12 @@
 import React from "react"
+import Layout from "../components/layout"
 
-export default function products() {
-  return <div>products page</div>
+const products = () => {
+  return (
+    <Layout>
+      <h1>this is the products</h1>
+    </Layout>
+  )
 }
+
+export default products
