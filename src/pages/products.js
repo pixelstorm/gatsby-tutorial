@@ -1,10 +1,15 @@
 import React from "react"
 import Layout from "../components/layout"
+import styles from "../components/products.module.css"
+console.log(styles)
 
 const products = () => {
   return (
     <Layout>
-      <h1>this is the products</h1>
+      <div className={styles.page}>
+        <h1>this is the products</h1>
+        <p> some text for the para </p>
+      </div>
     </Layout>
   )
 }
