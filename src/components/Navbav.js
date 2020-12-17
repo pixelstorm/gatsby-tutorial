@@ -9,6 +9,7 @@ const Navbav = () => {
           <Link to="/">Home Page</Link>
           <Link to="/blog">Blog</Link>
           <Link to="/products">products</Link>
+          <Link to="/examples">examples</Link>
         </li>
       </ul>
     </nav>
