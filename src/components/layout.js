@@ -2,7 +2,7 @@ import React from "react"
 import Navbav from "./Navbav"
 import "./layout.css"
 
-const layout = ({ children }) => {
+const Layout = ({ children }) => {
   return (
     <>
       <Navbav />
@@ -11,4 +11,4 @@ const layout = ({ children }) => {
   )
 }
 
-export default layout
+export default Layout
