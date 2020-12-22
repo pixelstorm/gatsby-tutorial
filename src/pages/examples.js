@@ -10,7 +10,7 @@ const examples = ({ data }) => {
   } = data
   return (
     <Layout>
-      <h1>hello from examples</h1>
+      <p>hello from examples</p>
       <Header />
       <h5>author: {author}</h5>
     </Layout>
